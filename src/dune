@@ -1,0 +1,8 @@
+(library
+ (name ppx_string_dedent)
+ (public_name ppx_string_dedent)
+ (kind ppx_rewriter)
+ (libraries dedent ppx_string ppxlib)
+ (preprocess no_preprocessing)
+ (lint
+  (pps ppx_js_style)))
